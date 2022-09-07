@@ -156,6 +156,11 @@ a {
     height: 200px;
   }
 
+  .socials--list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .section--page {
     padding-top: 1em;
   }
